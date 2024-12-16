@@ -12,4 +12,4 @@ def activity25():
     fruits.append("longgan")
     print(f"\n\t{fruits}")
 
-print(activity25())
+activity25()

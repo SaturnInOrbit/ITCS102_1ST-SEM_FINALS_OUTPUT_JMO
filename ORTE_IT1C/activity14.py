@@ -1,5 +1,6 @@
-for x in range(0,11):
-    print(x, end = " ")
-    for y in range(0,11):
-        print(" *", end ="")
-    print()
+def num_aster():
+    for x in range(0,11):
+        print(x, end = " ")
+        for y in range(0,11):
+            print(" *", end ="")
+        print()

@@ -1,8 +1,9 @@
-cont = True
-while cont == True:
-    name = input("Enter a name: ")
-    if name.lower() == "stop":
-        print("PROGRAM TERMINATED")
-        break
-    else:
-        continue
+def name_inf():
+    cont = True
+    while cont == True:
+        name = input("Enter a name: ")
+        if name.lower() == "stop":
+            print("PROGRAM TERMINATED")
+            break
+        else:
+            continue
