@@ -1,17 +1,14 @@
-AA = input("What's your name, miner? ")
-print("\n")
-A = 0
-B = input("Have you mined today?  ")
-print("\n")
+def mine():
+    name = input("What's your name?: ")
+    tot = 0
+    ans = input("Have you mined today? (Y/N)  ")
+    print("\n")
 
-
-
-if B.upper() == "YES": #main operation if "yes"
-	C = eval(input("How many  Golds did you mined? "))
-	print("\n")
-	D = A + C
-	print("Congrats ",AA,"You have mined ", D," golds, today")
-elif B.upper() != "YES": #sub operation if "no"
-	print("\n")
-	print("That's unfortunate, ",AA, " you've mined ", A, " golds today" )
-	print(" you should mine more efficient ", AA)
+    if ans.upper() == "Y": #main operation if "yes"
+        gold = eval(input("How much Gold did you mine? "))
+        all = tot + gold
+        print("Good day ",name,"You have mined ", all," golds, today")
+    elif ans.upper() != "Y": #sub operation if "no"
+        print("The go mine some", name )
+    else:
+        print("Huh?")
