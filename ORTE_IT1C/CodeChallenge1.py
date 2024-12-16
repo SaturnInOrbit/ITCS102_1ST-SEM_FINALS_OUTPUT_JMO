@@ -1,1 +1,2 @@
-print("\t\t\t\t\t\t\t\t\t\t\t\t\t* \n\t\t\t\t\t\t\t\t\t\t\t\t\t\b\b* * * \n\t\t\t\t\t\t\t\t\t\t\t\t\t\b\b\b\b* * * * * \n\t\t\t\t\t\t\t\t\t\t\t\t\t\b\b\b\b\b\b* * * * * * * \n\t\t\t\t\t\t\t\t\t\t\t\t\t\b\b\b\b* * * * * \n\t\t\t\t\t\t\t\t\t\t\t\t\t\b\b* * * \n\t\t\t\t\t\t\t\t\t\t\t\t\t*")
+def aster_diamond():
+    print("\t\t\t\t\t\t\t\t\t\t\t\t\t* \n\t\t\t\t\t\t\t\t\t\t\t\t\t\b\b* * * \n\t\t\t\t\t\t\t\t\t\t\t\t\t\b\b\b\b* * * * * \n\t\t\t\t\t\t\t\t\t\t\t\t\t\b\b\b\b\b\b* * * * * * * \n\t\t\t\t\t\t\t\t\t\t\t\t\t\b\b\b\b* * * * * \n\t\t\t\t\t\t\t\t\t\t\t\t\t\b\b* * * \n\t\t\t\t\t\t\t\t\t\t\t\t\t*")

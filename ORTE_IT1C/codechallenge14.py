@@ -1,9 +1,9 @@
 tuloy = True
 total = 0
 while tuloy == True:
-    num = eval(input("Enter a number: "))
+    num = eval(input("Enter a number: (Press 'zero' to stop): "))
 
-    if num ==0:
+    if num == 0:
         print("Okay tama na")
         print(f"The total of your inputted numbers is {total}!")
         break
