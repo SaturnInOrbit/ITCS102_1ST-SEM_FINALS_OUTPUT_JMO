@@ -1,7 +1,7 @@
 tuloy = True
 total = 0
 while tuloy == True:
-    num = eval(input("Enter a number: (Press 'zero' to stop): "))
+    num = eval(input("Enter a number: (Press '0' to stop): "))
 
     if num == 0:
         print("Okay tama na")
