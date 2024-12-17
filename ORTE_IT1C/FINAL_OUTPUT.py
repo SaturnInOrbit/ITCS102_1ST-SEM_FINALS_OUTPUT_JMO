@@ -14,7 +14,7 @@ def balik():
             print("YOU CAN'T GO BACK")
             time.sleep(2)
             print('')
-            print("I LIVE IN TORMENT AS MY SOUL WIRTHES IN THIS MACHINE")
+            print("I LIVE IN TORMENT AS MY SOUL WRITHES IN THIS MACHINE")
             time.sleep(2)
             backna = input("Go back (Y/N)? ")
             if backna.lower() == "y":
@@ -38,7 +38,8 @@ def balik():
                     break
 
 def go():
-    input("Continue (Y/N)?")
+    print("")
+    input("Continue (Y/N)? ")
 
 def operations():
         number1 = eval(input("Enter a number: "))
@@ -194,11 +195,11 @@ while menu:
     os.system('cls')
     print("")
     print("")
-    print("               █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬█")
-    print("               █========================▶ THE MENU ◀=========================█")
+    print("               █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬█")
+    print("               █========================▶ THE MENU ◀==========================█")
     print("               █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬█")
     print("               █    [#1] Greet Yourself!         [#11] Triangle Mania!        █")
-    print("               █    [#2] Easy-Peasy Biodata!     [#12] Easy-Peasy Biodata!    █")
+    print("               █    [#2] Easy-Peasy Biodata!     [#12] Grade Calculator!      █")
     print("               █    [#3] Guess the Password!     [#13] Easy-Peasy Biodata!    █")
     print("               █    [#4] Convert C° to F°!       [#14] Easy-Peasy Biodata     █")
     print("               █    [#5] Assignment Operators!   [#15] Easy-Peasy Biodata!    █")
@@ -409,13 +410,13 @@ while menu:
                     print("Hi Senior!")
                 else:
                     print("Invalid year level, please try again")
-                    isScho = input("Do you need this scholarship?(Y/N): ")
-                    if isScho.lower() == "y":
-                        print("You have been granted a full scholarship, thank you for choosing DLL")
-                        balik()
-                    else:
-                        print("Okay, have a nice day")
-                        balik()
+                isScho = input("Do you need this scholarship?(Y/N): ")
+                if isScho.lower() == "y":
+                    print("You have been granted a full scholarship, thank you for choosing DLL")
+                    balik()
+                else:
+                    print("Okay, have a nice day")
+                    balik()
             else:
                 print("Sorry, you are not eligible")
                 balik()
@@ -434,7 +435,7 @@ while menu:
         print('')
         print("So let's say:")
         print("for x in range(1,11):")
-        print("     print(""Hello World"")")
+        print("     print('Hello World')")
         go()
         os.system('cls')
         print("It should look like this:")
@@ -453,17 +454,113 @@ while menu:
         for x in range(start,0,-1):
             print(x)
             factorial *= x
-            print(f"the factorial of {start} is {factorial} ")
+        print(f"the factorial of {start} is {factorial} ")
         time.sleep(1)
         print("Neat")
         balik()
     elif choice == 11:
-        for x in range(0,11):
-        print(x, end = " ")
-        for y in range(0,11):
-            print(" *", end ="")
-        print()
-        pass
+        Initialize()
+        print("Now let's utilize loops to make some neat shapes!")
+        time.sleep(2)
+        print("Let's utilize this code block to create a simple triangle:")
+        print(" ")
+        print("for x in range(1,6):")
+        print(     "print('* ' * x)")
+        print("")
+        time.sleep(3)
+        print("And, it should look like this")
+        for x in range(1,6):
+            print('* ' * x)
+        print("")
+        print("Now go and try the others!")
+        time.sleep(2)
+        while menu:
+            os.system('cls')
+            print("                                            >Triangles & Others<")
+            print("                                     █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬█")
+            print("                                     █   [#1] Diamond                  █")
+            print("                                     █   [#2] An Arrow                 █")
+            print("                                     █   [#3] Number Rhombus           █")
+            print("                                     █   [#4] Upside-down Pyramid      █")
+            print("                                     █   [#5] Main Menu                █")
+            print("                                     █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬█")
+            print("Have a go with it!")
+            option = int(input("Enter the number of the shape you want to see:"))
+            if option == 1:
+                os.system('cls')
+                for x in range(1, 6):
+                    for y in range(6,x,-1):
+                        print(" ",end=" ")
+                    for z in range(1,x+1):
+                        print("*",end=" ")
+                    for a in range(1,x+1):
+                        print("*",end=" ")
+                    print()
+                for x in range(1, 6):
+                    for y in range(1,x+1):
+                        print(" ",end=" ")
+                    for z in range(6,x,-1):
+                        print("*",end=" ")
+                    for a in range(6,x,-1):
+                        print("*",end=" ")
+                    print()
+                go()
+            elif option == 2:
+                    os.system('cls')
+                    for x in range(1, 5):
+                        for y in range(6,x,-1):
+                            print(" ",end=" ")
+                        for z in range(1,x+1):
+                            print("*",end=" ")
+                        for a in range(1,x+1):
+                            print("*",end=" ")
+                        print()
+
+                    for x in range(1, 6):
+                        for y in range(1,6):
+                            print(" ",end=" ")
+                        for z in range(1,3):
+                            print("*",end=" ")
+                        print()
+                    go()
+            elif option == 3:
+                os.system('cls')
+                for x in range(1, 7):
+                    for y in range(6,x,-1):
+                        print(" ",end=" ")
+                    for z in range(x,1,-1):
+                        print(z,end=" ")    
+                    for a in range(1,x+1):
+                        print(a,end=" ")
+                    print()
+
+                for x in range(5, 0,-1):
+                    for y in range(6,x,-1):
+                        print(" ",end=" ")
+                    for z in range(x,1,-1):
+                        print(z,end=" ")
+                    for a in range(1,x+1):
+                        print(a,end=" ")
+                    print()
+                go()
+            elif option == 4:
+                os.system('cls')
+                t = int(input("Enter a number range: "))
+                for x in range(1,t):
+                    for a in range(1,x,1):
+                        print(" ",end="  ")
+                    for b in range(t,x,-1):
+                        print("^ ",end=" ")   
+                    for b in range(t,x,-1):                            
+                        print("* ",end=" ")        
+                    print()  
+                go()
+            elif option == 5:
+                break
+            else:
+                print("INVALID INPUT. PLEASE TRY AGAIN")
+                continue
+
     elif choice == 12:
         pass
     elif choice == 13:

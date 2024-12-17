@@ -12,3 +12,4 @@ def upsidedown_tria():
         for b in range(t,x,-1):
             print("* ",end=" ")        
         print()   
+upsidedown_tria()
