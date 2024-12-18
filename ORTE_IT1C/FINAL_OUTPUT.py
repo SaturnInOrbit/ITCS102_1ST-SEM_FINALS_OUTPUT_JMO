@@ -11,7 +11,7 @@ def balik():
             os.system('cls')
             print("...")
             time.sleep(2)
-            print("YGO BACK, I'M BEGGING YOU")
+            print("GO BACK, I'M BEGGING YOU")
             time.sleep(2)
             print('')
             print("I LIVE IN TORMENT AS MY SOUL WRITHES IN THIS MACHINE")
@@ -798,7 +798,7 @@ while menu:
        
     elif choice == 8:
         Initialize()
-        isDLL = input("Are you currently enrolled ni DLL?(Y/N): ")
+        isDLL = input("Are you currently enrolled in DLL?(Y/N): ")
         if isDLL.lower() == "y":
             isIYAM = input("Do you currently live in Brgy. Ibabang Iyam?(Y/N): ")
             if isIYAM.lower() == "y":
