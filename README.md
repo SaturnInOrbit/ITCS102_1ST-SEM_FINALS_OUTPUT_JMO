@@ -1,7 +1,8 @@
-Here lies the culmination of a week's(2 weeks?) of coding by a 1st year IT student being dragged along to the harsh waves of life. Tune in next semester kung buhay pa siya!
+Here lies the culmination of coding by a 1st year IT student being dragged along to the harsh waves of life. Tune in next semester kung buhay pa siya!
 
 Change logs:
     12/18/2024 - Tapos na yehey
+<<<<<<< HEAD
 
 __        _______ _     ____ ___  __  __ _____ _ _ _ 
 \ \      / / ____| |   / ___/ _ \|  \/  | ____| | | |
@@ -18,3 +19,5 @@ __        _______ _     ____ ___  __  __ _____ _ _ _
 \___ \ | | / _ \\ V /| | | |                           
  ___) || |/ ___ \| | |_|_|_|                           
 |____/ |_/_/   \_\_| (_|_|_)                           
+=======
+>>>>>>> 2b9d264355f0d6bb407fb0386efd56bcab9ff05f
