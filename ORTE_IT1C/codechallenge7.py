@@ -52,3 +52,5 @@ def grocery_store():
         print("Thank you for your purchase!")
     else:
         print("Purchase cancelled.")
+
+grocery_store()
